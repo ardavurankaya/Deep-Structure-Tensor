@@ -9,6 +9,10 @@ from torch.linalg import norm
 from util import utils
 from my_classes import Dataset 
 
+"""
+Training for the hyperresolution.
+"""
+
 if torch.cuda.is_available():
   device = 'cuda:0'
 else:
