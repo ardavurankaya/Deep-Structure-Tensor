@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-from structure_tensor import eig_special_2d, structure_tensor_2d, eig_special_3d, structure_tensor_3d
+from structure_tensor import eig_special_2d, structure_tensor_2d, eig_special_3d, structure_tensor_3d  #https://github.com/Skielex/structure-tensor
 import skimage.io 
 import matplotlib.pyplot as plt
 import scipy as scp
