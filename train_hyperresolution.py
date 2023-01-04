@@ -4,7 +4,7 @@ from structure_tensor import eig_special_2d, structure_tensor_2d, eig_special_3d
 import skimage.io 
 import matplotlib.pyplot as plt
 import scipy as scp
-from network2_3d import network2_3d
+from Models.network2_3d import network2_3d
 from torch.linalg import norm
 from util import utils
 from my_classes import Dataset 
